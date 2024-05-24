@@ -2,13 +2,12 @@
 
 ## Overview
 
-**r3f-ai-tamil-teacher** is an innovative application designed to teach Tamil using a graphical interface powered by React Three Fiber (R3F). This project integrates OpenAI's GPT-3.5 Turbo for language translation and Azure Cognitive Services for text-to-speech functionality, creating an immersive and interactive learning experience.
+**r3f-ai-tamil-teacher** is an innovative application designed to teach Tamil using a graphical interface powered by React Three Fiber (R3F). This project integrates LlaMa 3 for language translation and creating an immersive and interactive learning experience.
 
 ## Features
 
 - **Interactive 3D Graphics**: Utilizes React Three Fiber to create engaging and interactive 3D environments for teaching Tamil.
-- **Language Translation**: Leverages OpenAI GPT-3.5 Turbo to translate and provide accurate Tamil language instructions.
-- **Text-to-Speech**: Uses Azure Cognitive Services to convert text translations into natural-sounding speech.
+- **Language Translation**: Leverages LLaMa3 70B model to translate and provide accurate Tamil language instructions.
 - **User-friendly Interface**: Built with Next.js for seamless navigation and optimized performance.
 
 ## Technologies Used
@@ -17,8 +16,7 @@
 - **React Three Fiber (R3F)**: A React renderer for Three.js, enabling 3D graphics in the web application.
 - **Leva**: UI components for parameter control, enhancing the interactivity of the 3D elements.
 - **Zustand**: State management library for managing the application state efficiently.
-- **Azure Cognitive Services**: For text-to-speech conversion.
-- **OpenAI GPT-3.5 Turbo**: For natural language processing and translation.
+- **LLaMa 3 70B**: For natural language processing and translation.
 
 ## Installation
 
@@ -66,27 +64,6 @@ To get started with the project, follow these steps:
 - **Start**: `yarn start` - Starts the production server.
 - **Lint**: `yarn lint` - Runs ESLint for code quality checks.
 
-## Dependencies
-
-- `@react-three/drei`: ^9.99.3
-- `@react-three/fiber`: ^8.15.16
-- `leva`: ^0.9.35
-- `microsoft-cognitiveservices-speech-sdk`: ^1.35.0
-- `next`: ^14.2.3
-- `openai`: ^4.28.0
-- `react`: ^18
-- `react-dom`: ^18
-- `three`: ^0.161.0
-- `zustand`: ^4.5.1
-
-## DevDependencies
-
-- `autoprefixer`: ^10.0.1
-- `eslint`: ^8
-- `eslint-config-next`: 14.1.0
-- `postcss`: ^8
-- `tailwindcss`: ^3.3.0
-
 ## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request with your improvements. For major changes, please open an issue first to discuss what you would like to change.
@@ -97,7 +74,7 @@ This project is licensed under the MIT License.
 
 ## Acknowledgements
 
-- Special thanks to the developers of React Three Fiber, OpenAI, and Azure Cognitive Services for their incredible tools and APIs.
+- Special thanks to the developers of React Three Fiber, LLaMa3 and Groq  for their incredible tools and APIs.
 
 ---
 
