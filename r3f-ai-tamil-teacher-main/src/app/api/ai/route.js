@@ -185,7 +185,7 @@ You should respond with:
     },
     {
       role: "system",
-      content: `Do not respond anything other than the following JSON.Produce the correct JSON syntax. You always respond only with a JSON object in the following format: 
+      content: `Do not respond anything other than the following JSON.Produce the correct JSON syntax. I should not get any syntax error. You always respond only with a JSON object in the following format: 
       {
         "english": "",
         "tamil": [{
