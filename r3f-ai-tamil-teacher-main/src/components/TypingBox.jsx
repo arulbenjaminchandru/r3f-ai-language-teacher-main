@@ -18,7 +18,7 @@ export const TypingBox = () => {
         </h2>
         <p className="text-white/65">
           Type a sentence you want to say in Tamil and Tamil AI will
-          translate it for you.
+          translate it for you with grammar breakdown.
         </p>
       </div>
 
